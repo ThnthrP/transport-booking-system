@@ -121,15 +121,20 @@ It focuses on user workflow, clean UI design, and generating printable documents
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-Booking Form
+### Booking Form
+![Booking Form 1](screenshots/BookingForm-1.png)
+![Booking Form 2](screenshots/BookingForm-2.png)
 
-Booking Review
+### Booking Review
+![Booking Review](screenshots/BookingReview.png)
 
-Booking Ticket
+### Booking Ticket
+![Booking Ticket](screenshots/BookingTicket.png)
 
-PDF Export
+### PDF Export
+![PDF Export](screenshots/PDFExport.png)
 
 ---
 
