@@ -85,6 +85,7 @@ The document can be exported as a PDF file for internal approval and record keep
 
 ## 📁 Project Structure
 
+```plaintext
 src
 ├─ components
 │ └─ CompanyHeader.jsx
@@ -98,6 +99,7 @@ src
 └─ utils
 ├─ generateBookingId.js
 └─ generatePDF.js
+```
 
 ---
 
