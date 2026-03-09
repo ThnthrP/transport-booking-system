@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body{
+  font-family: "Outfit", sans-serif;
+  background: #f8fafc;
+}
+
+input, textarea, select{
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+button{
+  /* background: #2563eb; */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.vehicle-circle{
+  position: relative;
+  top: -2px;     /* สำหรับหน้า confirmation */
+}
+
+#ticket.pdf-mode .vehicle-circle{
+  top: -4px;     /* สำหรับ PDF */
+  font-size: 20px;
+}
+
+#ticket.pdf-mode .status-badge{
+  transform: translateY(4px);
+}
+
+#ticket.pdf-mode .status-text{
+  display:inline-block;
+  transform: translateY(-7px);
+}

@@ -1,0 +1,24 @@
+import html2pdf from "html2pdf.js";
+
+export default function generatePDF() {
+  const element = document.getElementById("ticket");
+
+  // clone DOM เพื่อไม่ให้หน้าเว็บขยับ
+  const clone = element.cloneNode(true);
+
+  clone.classList.add("pdf-mode");
+
+  const opt = {
+    margin: 10,
+    filename: "transport-booking.pdf",
+    image: { type: "jpeg", quality: 1 },
+    html2canvas: { scale: 2 },
+    jsPDF: {
+      unit: "mm",
+      format: "a4",
+      orientation: "portrait",
+    },
+  };
+
+  html2pdf().set(opt).from(clone).save();
+}
